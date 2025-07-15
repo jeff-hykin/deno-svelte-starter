@@ -6,8 +6,9 @@
 	"scripts": {
 		"dev": "deno run -A npm:vite & deno run server:start",
 		"server:start": "deno run -A --watch ./api/main.ts",
+		"server:production": "deno run -A ./api/main.ts",
 		"build": "deno run -A npm:vite build",
-		"serve": "deno run build && deno run server:start"
+		"preview": "deno run -A ./api/main.ts & deno run -A npm:vite preview"
 	},
 	"devDependencies": {
 		"@deno/svelte-adapter": "^0.1.0",
