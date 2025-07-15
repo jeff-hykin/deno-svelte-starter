@@ -2,6 +2,14 @@
 
 A tutorial project demonstrating how to build a full-stack web application using Deno and SvelteKit. This project showcases modern web development practices with TypeScript, server-side rendering, and API routes.
 
+## Make it your own!
+
+You can deploy your own version of this svelte app to Deno Deploy immediately.
+Just click the button to clone and deploy.
+
+[![Deploy on Deno](https://deno.com/button)](https://app.deno.com/new?clone=https://github.com/denoland/tutorial-with-svelte)
+
+
 ## Tech Stack
 
 - **Runtime**: [Deno](https://deno.com/)
