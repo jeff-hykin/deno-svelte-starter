@@ -8,5 +8,5 @@
 <div>
   <h1>{dinosaur.name}</h1>
   <p>{dinosaur.description}</p>
-  <a href="/">🠠 Back to all dinosaurs</a>
+  <a href="/" class="btn-secondary">🠠 Back to all dinosaurs</a>
 </div>
