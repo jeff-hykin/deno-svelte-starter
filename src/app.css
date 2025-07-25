@@ -2,3 +2,7 @@ a.btn-primary {
   display: inline-block;
   margin: 0.5rem;
 }
+
+a.btn-secondary::before {
+  content: "←";
+}
