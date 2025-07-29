@@ -4,5 +4,5 @@ a.btn-primary {
 }
 
 a.btn-secondary::before {
-  content: "←";
+  content: "← ";
 }
