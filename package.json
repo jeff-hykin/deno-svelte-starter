@@ -8,6 +8,9 @@
 		"build": "deno run -A npm:vite build",
 		"preview": "deno run -A npm:vite preview"
 	},
+	"dependencies": {
+		"@sveltejs/adapter-static": "^3.0.9"
+	},
 	"devDependencies": {
 		"@deno/svelte-adapter": "^0.1.0",
 		"@sveltejs/adapter-auto": "^6.0.0",
