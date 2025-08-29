@@ -5,7 +5,7 @@
 	"type": "module",
 	"scripts": {
 		"dev": "deno run -A npm:vite",
-		"compile": "rm -rf build && deno run -A npm:vite build",
+		"build": "deno run -A npm:vite build",
 		"serve": "deno run -A ./backend.ts",
 		"preview": "deno run -A npm:vite preview"
 	},
